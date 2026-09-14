@@ -1,0 +1,125 @@
+/* =========================================================
+   Moke Wu Academic Website
+   Custom site-wide styles
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   General wide academic pages
+   --------------------------------------------------------- */
+
+.academic-page .page__inner-wrap {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.academic-page .page__title {
+  margin-bottom: 1.4rem;
+}
+
+.academic-page .page__content {
+  line-height: 1.72;
+}
+
+.academic-page .page__content p {
+  margin-bottom: 1.15rem;
+}
+
+.academic-page .page__content h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.academic-page .page__content h3 {
+  margin-top: 1.7rem;
+  margin-bottom: 0.65rem;
+}
+
+
+/* ---------------------------------------------------------
+   Homepage
+   --------------------------------------------------------- */
+
+.home-page .page__title {
+  display: none;
+}
+
+.home-page .page__inner-wrap {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-profile {
+  display: grid;
+  grid-template-columns: 330px minmax(0, 1fr);
+  gap: 72px;
+  align-items: start;
+  margin: 55px auto 80px auto;
+}
+
+.home-photo img {
+  display: block;
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.home-bio h1 {
+  margin: 0 0 8px 0;
+  font-size: 2.25em;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.home-position {
+  margin: 0 0 30px 0;
+  font-size: 1.12em;
+  line-height: 1.55;
+  color: #555;
+}
+
+.home-bio p {
+  margin: 0 0 21px 0;
+  line-height: 1.72;
+}
+
+.home-paper {
+  margin-top: 28px;
+  padding-top: 19px;
+  border-top: 1px solid #e8e8e8;
+  line-height: 1.7;
+}
+
+
+/* ---------------------------------------------------------
+   Mobile
+   --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .academic-page .page__inner-wrap {
+    max-width: 100%;
+  }
+
+  .home-profile {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 25px auto 55px auto;
+  }
+
+  .home-photo {
+    text-align: center;
+  }
+
+  .home-photo img {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+
+  .home-bio h1 {
+    font-size: 1.9em;
+  }
+}
