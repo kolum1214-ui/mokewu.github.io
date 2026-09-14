@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Moke Wu"
 title_separator          : "-"
 name                     : &name "Moke Wu"
@@ -21,14 +21,13 @@ repository               : "moke-wu/moke-wu.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
   avatar           : "profile.png"
   name             : "Moke Wu"
   pronouns         :
-  bio              : "PhD Candidate in Economics at the University of Strathclyde."
+  bio              : "PhD Candidate in Economics"
   location         : "Glasgow, UK"
   employer         : "University of Strathclyde"
-  uri              : "https://moke-wu.github.io"
+  uri              :
   email            : "moke.wu@strath.ac.uk"
 
   # Academic websites
