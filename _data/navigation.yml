@@ -1,5 +1,4 @@
-# The following is the order of the links in the header of the website.
-
+# main links
 main:
   - title: "Home"
     url: /
@@ -9,6 +8,9 @@ main:
 
   - title: "Teaching"
     url: /teaching/
+
+  - title: "Contact"
+    url: /contact/
 
   - title: "CV"
     url: /cv/
