@@ -2,6 +2,9 @@
 permalink: /contact/
 title: "Contact"
 author_profile: false
+classes:
+  - wide
+  - academic-page
 ---
 
 For research-related enquiries, please feel free to contact me by email.
