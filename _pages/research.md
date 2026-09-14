@@ -1,7 +1,10 @@
 ---
 permalink: /research/
 title: "Research"
-author_profile: true
+author_profile: false
+classes:
+  - wide
+  - academic-page
 ---
 
 My research focuses on the macroeconomic and financial effects of geopolitical risk, with particular attention to international transmission, cross-country heterogeneity, and time variation. Methodologically, I am interested in Vector Autoregressions (VARs), Bayesian VARs, and time-varying parameter models.
