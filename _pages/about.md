@@ -8,31 +8,38 @@ redirect_from:
 ---
 
 <style>
-  /* Hide the default Academic Pages page title */
   .page__title {
     display: none;
   }
 
-  /* Main homepage layout */
-  .home-profile {
-    display: grid;
-    grid-template-columns: minmax(270px, 320px) minmax(0, 1fr);
-    gap: 64px;
-    align-items: start;
-    margin-top: 28px;
-    margin-bottom: 55px;
+  /* Use more of the available width on the homepage */
+  .page {
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0 !important;
   }
 
-  /* Portrait */
+  .page__inner-wrap {
+    width: 100%;
+  }
+
+  .home-profile {
+    display: grid;
+    grid-template-columns: 330px minmax(0, 1fr);
+    gap: 72px;
+    align-items: start;
+    max-width: 1080px;
+    margin: 55px auto 80px auto;
+  }
+
   .home-photo img {
     display: block;
     width: 100%;
-    max-width: 320px;
+    max-width: 330px;
     height: auto;
     border-radius: 4px;
   }
 
-  /* Main bio */
   .home-bio h1 {
     margin: 0 0 8px 0;
     font-size: 2.25em;
@@ -48,28 +55,23 @@ redirect_from:
   }
 
   .home-bio p {
-    margin: 0 0 20px 0;
-    line-height: 1.75;
+    margin: 0 0 21px 0;
+    line-height: 1.72;
   }
 
-  /* Condensed working-paper signal */
   .home-paper {
-    margin-top: 30px;
-    padding-top: 20px;
+    margin-top: 28px;
+    padding-top: 19px;
     border-top: 1px solid #e8e8e8;
     line-height: 1.7;
   }
 
-  .home-paper strong {
-    color: #444;
-  }
-
-  /* Mobile */
   @media (max-width: 768px) {
     .home-profile {
       grid-template-columns: 1fr;
-      gap: 32px;
-      margin-top: 12px;
+      gap: 30px;
+      margin: 25px auto 55px auto;
+      padding: 0 18px;
     }
 
     .home-photo {
@@ -106,12 +108,8 @@ redirect_from:
       My research focuses on applied macroeconomics, international macroeconomics and finance,
       and Bayesian macroeconometrics. In particular, I study the macroeconomic and financial
       transmission of geopolitical risk, with an emphasis on cross-country heterogeneity and
-      time variation in its transmission.
-    </p>
-
-    <p>
-      Methodologically, I am particularly interested in Vector Autoregressions,
-      Bayesian VARs, and Time-Varying Parameter models.
+      time variation in its transmission. Methodologically, I am particularly interested in
+      Vector Autoregressions, Bayesian VARs, and Time-Varying Parameter models.
     </p>
 
     <p>
