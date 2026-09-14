@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Moke Wu"
+title: ""
 seo_title: "Moke Wu | PhD Candidate in Economics"
 description: "Moke Wu is a PhD Candidate in Economics at the University of Strathclyde, researching applied macroeconomics, international macroeconomics and finance, geopolitical risk, and Bayesian macroeconometrics."
 author_profile: false
