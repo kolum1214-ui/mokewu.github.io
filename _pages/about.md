@@ -2,92 +2,13 @@
 permalink: /
 title: "Moke Wu"
 author_profile: false
+classes:
+  - wide
+  - home-page
 redirect_from:
   - /about/
   - /about.html
 ---
-
-<style>
-  .page__title {
-    display: none;
-  }
-
-  /* Use more of the available width on the homepage */
-  .page {
-    width: 100% !important;
-    float: none !important;
-    padding-right: 0 !important;
-  }
-
-  .page__inner-wrap {
-    width: 100%;
-  }
-
-  .home-profile {
-    display: grid;
-    grid-template-columns: 330px minmax(0, 1fr);
-    gap: 72px;
-    align-items: start;
-    max-width: 1080px;
-    margin: 55px auto 80px auto;
-  }
-
-  .home-photo img {
-    display: block;
-    width: 100%;
-    max-width: 330px;
-    height: auto;
-    border-radius: 4px;
-  }
-
-  .home-bio h1 {
-    margin: 0 0 8px 0;
-    font-size: 2.25em;
-    line-height: 1.15;
-    font-weight: 700;
-  }
-
-  .home-position {
-    margin: 0 0 30px 0;
-    font-size: 1.12em;
-    line-height: 1.55;
-    color: #555;
-  }
-
-  .home-bio p {
-    margin: 0 0 21px 0;
-    line-height: 1.72;
-  }
-
-  .home-paper {
-    margin-top: 28px;
-    padding-top: 19px;
-    border-top: 1px solid #e8e8e8;
-    line-height: 1.7;
-  }
-
-  @media (max-width: 768px) {
-    .home-profile {
-      grid-template-columns: 1fr;
-      gap: 30px;
-      margin: 25px auto 55px auto;
-      padding: 0 18px;
-    }
-
-    .home-photo {
-      text-align: center;
-    }
-
-    .home-photo img {
-      max-width: 260px;
-      margin: 0 auto;
-    }
-
-    .home-bio h1 {
-      font-size: 1.9em;
-    }
-  }
-</style>
 
 <div class="home-profile">
 
