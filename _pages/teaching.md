@@ -1,7 +1,10 @@
 ---
 permalink: /teaching/
 title: "Teaching"
-author_profile: true
+author_profile: false
+classes:
+  - wide
+  - academic-page
 ---
 
 My teaching experience spans postgraduate econometrics and undergraduate economics. I have led R-based computer sessions and tutorials at the University of Edinburgh and the University of Strathclyde.
